@@ -38,7 +38,7 @@ function getEncodePacked(address _add, uint256 _value) pure public returns(bytes
 * In this example, the getEncodePacked function takes a address, and an uint256 as input parameters, and returns the packed data as a byte array.</br>
 * The abi.encodePacked function is used to concatenate and pack the input parameters into a tightly packed byte array.</br></br>
 
-## 3. abi.encodeWithSelector:
+## 3. abi.encodeWithSelector
 
 * abi.encodeWithSelector is a Solidity function that is used to encode function calls with a function selector.</br>
 * When you want to call a function in Solidity, you need to know the function's selector, which is a hash of the function's name and its input parameter types.</br>
@@ -63,7 +63,7 @@ function getEncodePacked(address _add, uint256 _value) pure public returns(bytes
 * When the encoded data is received by the contract, it can be decoded using abi.decode to extract the function name and the input parameters.</br></br>
 
 
-## 4. abi.encodeWithSignature:
+## 4. abi.encodeWithSignature
 
 * abi.encodeWithSignature is a Solidity function that is used to encode function calls with a function signature.</br>
 * When you want to call a function in Solidity, you need to know the function's signature, which is a hash of the function's name and its input parameter types. </br>
@@ -87,7 +87,7 @@ function getEncodePacked(address _add, uint256 _value) pure public returns(bytes
 * When the encoded data is received by the contract, it can be decoded using abi.decode to extract the function name and the input parameters.</br></br>
 
 
-## 5. abi.decode:
+## 5. abi.decode
 
 * abi.decode is a Solidity function that is used to decode data that has been encoded using the Application Binary Interface (ABI) encoding.</br>
 * The ABI encoding is a standardized way of encoding data structures and function calls for communication between different systems and programming languages, such as between a Solidity smart contract and a web3 library like web3.js. The ABI encoding ensures that the data is encoded in a consistent and machine-readable format.</br>
